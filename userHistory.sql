@@ -1,4 +1,4 @@
--- userhistory, logs remain after 14 days 
+# userhistory, logs remain after 14 days 
 
 
  CREATE TABLE `userhistory` (
