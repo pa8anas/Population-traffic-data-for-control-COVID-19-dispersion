@@ -1,4 +1,4 @@
--- infectedusers table, active infected users
+# infectedusers table, active infected users
 
 
  CREATE TABLE `infectedusers` (
@@ -11,7 +11,7 @@
 
 
 
---Event for deleting entries after 14 days
+# Event for deleting entries after 14 days
 
 CREATE EVENT IF NOT EXISTS `Delete_log_after_14days`
 ON SCHEDULE
