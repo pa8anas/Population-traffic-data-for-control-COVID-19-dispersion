@@ -33,6 +33,7 @@ if (!isset($_SESSION['loggedin'])) {
 				<a href="user.php"><i class="selected fas fa-user"></i>Dashboard</a>
 				<a href="user_stats.php"><i class="fas fa-chart-line"></i>Stats</a>
 				<a href="user_upload.php"><i class="fas fa-cloud-upload-alt"></i>Upload</a>
+				<a href="infectedUsers.html"><i class="fas fa-hotdog"></i> Report Infection</a>
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
 		</nav>
