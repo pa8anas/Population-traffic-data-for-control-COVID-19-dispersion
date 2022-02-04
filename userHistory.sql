@@ -7,4 +7,4 @@
   `infected` tinyint(1) DEFAULT NULL,
   KEY `userid` (`userid`),
   CONSTRAINT `userhistory_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `users` (`userid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 |
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 
