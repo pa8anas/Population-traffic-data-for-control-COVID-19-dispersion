@@ -40,6 +40,8 @@ $average = $_SESSION['average'];
 				<a href="user.php"><i class="selected fas fa-user"></i>Dashboard</a>
 				<a href="instance_declaration.html"><i class="fas fa-chart-line"></i>Instance Declaration</a>
 				<a href="user_contact.php"><i class="fas fa-chart-line"></i>Contact with Instances</a>
+				<a href="covid_history.php"><i class="fas fa-book"></i>History of infections</a>
+				<a href="infectedUsers.html"><i class="fas fa-bell"></i>Upload day of infection </a>
 				<a href="editprofile.html"><i class="fas fa-chart-line"></i>Edit Profile</a>
 				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
 			</div>
