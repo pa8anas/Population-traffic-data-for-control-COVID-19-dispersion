@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+
+
+<body class="loggedin">
+<nav class="navtop">
+    <div>
+        <h1>Covid-19 Tracing</h1>
+        <!-- Navigation Bar -->
+        <a href="user.php"><i class="fas fa-search"></i>Pois Search</a>
+        <a href="instance_declaration.html"><i class="fas fa-diagnoses"></i>Case Declaration</a>
+        <a href="user_contact.php"><i class="fas fa-notes-medical"></i>Contact tracing</a>
+        <a href="editprofile.html"><i class="selected fas fa-edit"></i>Edit Profile</a>
+        <a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+
+    </div>
+</nav>
+
+<div class="content">
+    <h1>Edit Your Profile</h1>
+    <h2>You can change your username and password</h2>
+<div>
+    <form action="editprofile.php" method="post">
+        <label for="username">
+            <i class="fas fa-user"></i>
+        </label>
+        <input type="text" name="username" placeholder=" New Username" id="username" required>
+        <br/><br/>
+        <label for="password">
+            <i class="fas fa-lock"></i>
+        </label>
+        <input type="password" name="password" placeholder="New Password" id="password" required>
+        <input type="submit" name="update_button" value="Update">
+    </form>
+</div>
+</div>
+</body>
+</html>
