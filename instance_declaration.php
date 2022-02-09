@@ -24,7 +24,7 @@ if (isset($_POST["date"])){
   if($run){
 
 
- echo "<h2>" "New record created successfully!" "</h2>";
+ echo "<h2>New record created successfully!</h2>";
 } else {
  echo "Error: " . $sql . "<br>" . mysqli_error($con);
 }
