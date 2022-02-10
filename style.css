@@ -270,7 +270,6 @@ tr:hover {background-color: #0bafb1;}
 }
 
 .content form input[type="password"], .login form input[type="text"] {
-    width: 30%;
     height: 50px;
     border: 1px solid #dee0e4;
     margin-bottom: 20px;
